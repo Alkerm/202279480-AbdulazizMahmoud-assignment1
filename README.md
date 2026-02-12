@@ -1,4 +1,4 @@
-# Assignment 1 � Personal Portfolio
+﻿# Assignment 1 – Personal Portfolio
 
 A responsive personal portfolio website for Abdulaziz Ayman Elkarm, built with HTML, CSS, and JavaScript.
 
@@ -34,3 +34,6 @@ assignment-1/
 
 ## Optional deployment
 You can deploy using GitHub Pages by enabling Pages in the repository settings.
+
+## Live demo (optional)
+- Add your deployed link here if you publish the site (e.g., GitHub Pages).

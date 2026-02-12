@@ -1,4 +1,5 @@
 :root {
+  /* Theme tokens */
   color-scheme: dark light;
   --bg: #0b111e;
   --bg-alt: #111a2e;
@@ -32,6 +33,7 @@
 }
 
 body {
+  /* Base typography and background */
   font-family: "Space Grotesk", sans-serif;
   background: radial-gradient(circle at 10% 20%, rgba(103, 210, 255, 0.15), transparent 55%),
     radial-gradient(circle at 90% 0%, rgba(123, 240, 200, 0.12), transparent 45%),
@@ -74,6 +76,7 @@ a {
 }
 
 .site-header {
+  /* Sticky header with blur */
   position: sticky;
   top: 0;
   backdrop-filter: blur(14px);
@@ -157,6 +160,7 @@ a {
 }
 
 .hero {
+  /* Top section spacing */
   padding: 80px 0 60px;
 }
 
@@ -175,14 +179,6 @@ a {
 .hero-card {
   flex: 1;
   min-width: 0;
-}
-
-.eyebrow {
-  text-transform: uppercase;
-  letter-spacing: 0.2em;
-  font-size: 0.75rem;
-  color: var(--muted);
-  margin-bottom: 12px;
 }
 
 h1 {
@@ -205,6 +201,7 @@ h1 {
 }
 
 .btn {
+  /* Primary button */
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -221,13 +218,6 @@ h1 {
 
 .btn:hover {
   transform: translateY(-2px);
-}
-
-.btn-outline {
-  background: transparent;
-  border: 1px solid var(--border);
-  color: var(--text);
-  box-shadow: none;
 }
 
 .btn-small {
@@ -308,6 +298,7 @@ h1 {
 }
 
 .card {
+  /* Project cards */
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: 20px;
@@ -338,14 +329,8 @@ h1 {
   gap: 12px;
 }
 
-.tag {
-  font-size: 0.8rem;
-  color: var(--accent-strong);
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-}
-
 .pill-grid {
+  /* Skills pill layout */
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   gap: 12px;
@@ -363,14 +348,6 @@ h1 {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 32px;
-}
-
-.contact-details {
-  list-style: none;
-  display: grid;
-  gap: 10px;
-  color: var(--muted);
-  margin-top: 20px;
 }
 
 .contact-form {
@@ -414,6 +391,7 @@ textarea:focus {
 }
 
 @media (max-width: 960px) {
+  /* Tablet layout */
   .header-content {
     flex-direction: column;
   }
