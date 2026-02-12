@@ -7,7 +7,7 @@
 
 ## Key features
 - Dark-first design using CSS custom properties with a light-mode override.
-- Responsive grids for hero, project cards, and contact section.
+- Responsive grids for project cards, and contact section.
 - Theme toggle stored in `localStorage` to preserve user preference.
 - Client-side contact form interaction (no backend).
 

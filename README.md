@@ -1,5 +1,5 @@
-﻿# Assignment 1 – Personal Portfolio
-
+# Assignment 1 Personal Portfolio
+## Project description
 A responsive personal portfolio website for Abdulaziz Ayman Elkarm, built with HTML, CSS, and JavaScript.
 
 ## Project overview
@@ -13,27 +13,8 @@ A responsive personal portfolio website for Abdulaziz Ayman Elkarm, built with H
 2. No build steps or server required.
 
 ## AI usage (short summary)
-This project used ChatGPT to help structure the layout, draft copy from the resume, and plan the CSS theme and JavaScript toggle. Full details are in `docs/ai-usage-report.md`.
+This project used ChatGPT (CODEX) to help structure the layout, and plan the CSS theme and JavaScript toggle, in addition to GitHub Copilot for code completion and debugging. Full details are in `docs/ai-usage-report.md`.
 
-## Folder structure
-```
-assignment-1/
-??? README.md
-??? index.html
-??? css/
-?   ??? styles.css
-??? js/
-?   ??? script.js
-??? assets/
-?   ??? images/
-??? docs/
-?   ??? ai-usage-report.md
-?   ??? technical-documentation.md
-??? AGENTS.md
-```
 
-## Optional deployment
-You can deploy using GitHub Pages by enabling Pages in the repository settings.
-
-## Live demo (optional)
-- Add your deployed link here if you publish the site (e.g., GitHub Pages).
+## live deployment link
+https://alkerm.github.io/202279480-AbdulazizMahmoud-assignment1/
